@@ -1,1 +1,29 @@
 # ZeroBid-Hub
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEROBID HUB | เลือกเกม</title>
+    <style>
+        body { background-color: #0d1117; color: #c9d1d9; font-family: sans-serif; padding: 20px; text-align: center; }
+        .container { max-width: 600px; margin: 50px auto; }
+        h1 { color: #58a6ff; font-size: 32px; margin-bottom: 10px; }
+        .subtitle { color: #8b949e; margin-bottom: 40px; }
+        .menu-btn { display: block; background-color: #161b22; border: 1px solid #30363d; color: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; font-size: 20px; font-weight: bold; text-decoration: none; transition: 0.2s; }
+        .menu-btn:hover { background-color: #21262d; border-color: #58a6ff; transform: scale(1.02); }
+        .btn-bf { border-left: 5px solid #2ea44f; }
+        .btn-kl { border-left: 5px solid #ff7b72; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🏴‍☠️ ZEROBID HUB 🏴‍☠️</h1>
+    <div class="subtitle">คลังสคริปต์ Roblox แยกหมวดหมู่ เลือกเกมที่ต้องการเล่นด้านล่างได้เลย</div>
+    
+    <!-- ปุ่มกดลิงก์ข้ามหน้าย่อย -->
+    <a href="bloxfruit.html" class="menu-btn btn-bf">🟢 หมวดหมู่: Blox Fruits</a>
+    <a href="kinglegacy.html" class="menu-btn btn-kl">🔴 หมวดหมู่: King Legacy</a>
+</div>
+</body>
+</html>
