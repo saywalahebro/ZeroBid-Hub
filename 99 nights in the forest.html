@@ -20,3 +20,21 @@
 <body>
 <div class="container">
     <a href="index.html" class="back-btn">⬅️ กลับหน้าหลัก</a>
+<h1> 99 nights in the forest </h1>
+    
+    <div class="script-card">
+        <div class="script-name">test</div>
+        <div class="code-box" id="kl1">test</div>
+        <button class="copy-btn" onclick="copyScript('kl1')">Copy Script</button>
+    </div>
+</div>
+<script>
+function copyScript(id) {
+    var r = document.createRange(); r.selectNode(document.getElementById(id));
+    window.getSelection().removeAllRanges(); window.getSelection().addRange(r);
+    document.execCommand('copy'); window.getSelection().removeAllRanges();
+    alert("ก๊อปปี้สคริปต์เรียบร้อยแล้ว!");
+}
+</script>
+</body>
+</html>
