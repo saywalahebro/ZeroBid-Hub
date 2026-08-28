@@ -22,51 +22,26 @@
     <a href="index.html" class="back-btn">⬅️ กลับหน้าหลัก</a>
     <h1> Blox Fruits Scripts</h1>
     
-    <!-- สคริปต์ตัวที่ 1 -->
-    <div class="script-card">
-        <div class="script-name">Blue x Hub ทำไก่ตัน</div>
-        <div class="code-box" id="bf1">getgenv().Config = {
-    ["Setting"] = {
-        ["UiCheckItem"] = false,
-        ["White Screen"] = false
-    },
-    ["MainItem"] = {
-        ["Saber"] = true,
-        ["Hallow Scythe"] = true,
-        ["GodHuman"] = true,
-        ["Skull Guitar"] = true,
-        ["Cursed Dual Katana"] = true
-    },
-    ["MiscItem"] = {
-        ["Feathered Visage"] = true,
-        ["Pole1st"] = true,
-        ["Dragon Trident"] = true,
-        ["Spikey Trident"] = true,
-        ["Buddy"] = true,
-        ["Canvander"] = true,
-        ["Twin Hooks"] = true,
-        ["Gravity Blade"] = true,
-        ["Venom Bow"] = true
-    },
-    ["Fruits"] = {
-        ["Fruits Eat"] = {"Gravity-Gravity","Pain-Pain"},
-        ["Auto Eat Fruits"] = false,
-        ["Farm Mastery Fruits"] = true
-    },
-    ["Quest"] = {
-        ["Race V2-V3"] = true,
-        ["Haki Rainbow"] = true
-    },
-    ["Webhook"] = {
-        ["Enable"] = false,
-        ["UrlWebhook"] = ""
-    }
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/KaitunBloxFruits.lua"))()</div>
-        <button class="copy-btn" onclick="copyScript('bf1')">Copy Script</button>
+       <!-- 📦 กล่อง อันที่1 -->
+<div class="script-card">
+    <div class="script-name">Blue x Hub</div>
+    
+    <!-- โซนป้ายบอกสถานะ (ถ้าอันไหนไม่ใช้ ให้ลบเฉพาะบรรทัดนั้นออก หรือแก้คำเอาได้เลย) -->
+    <div style="margin-bottom: 10px;">
+        <span style="background-color: #0077ff; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px;">🔑 No Key</span>
+        <span style="background-color: #238636; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">🟢 Online</span>
     </div>
 
-    <!-- 📦 กล่องสคริปต์อเนกประสงค์ ZEROBID (พิมพ์แก้คำได้ตลอดเวลา) -->
+    <!-- โซนกล่องใส่โค้ด (จำกัดความสูงไว้ให้แล้ว โค้ดยาวแค่ไหนก็ไม่ล้นหน้าจอ) -->
+    <div class="code-box" id="bf1" style="max-height: 200px; overflow-y: auto; white-space: pre-wrap;">_G.AutoTranslate = true
+_G.SaveConfig = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()</div>
+    
+    <!-- ปุ่มกดก๊อปปี้ -->
+    <button class="copy-btn" onclick="copyScript('bf1')">Copy Script</button>
+</div>
+
+    <!-- 📦 กล่อง อันที่2 -->
 <div class="script-card">
     <div class="script-name">redz Hub</div>
     
@@ -87,32 +62,72 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/newredz/
     <button class="copy-btn" onclick="copyScript('bf2')">Copy Script</button>
 </div>
 
-  <!-- สคริปต์ตัวที่ 3 (ค่ายใหม่ที่เพิ่มเข้ามา) -->
-    <div class="script-card">
-        <div class="script-name">Solix Hub</div>
-        <div class="code-box" id="bf3">loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()</div>
-        <button class="copy-btn" onclick="copyScript('bf3')">Copy Script</button>
-    </div>
+     <!-- 📦 กล่อง อันที่3 -->
+<div class="script-card">
+    <div class="script-name">Solix Hub</div>
     
-    <!-- สคริปต์ตัวที่ 4 (ค่ายใหม่ที่เพิ่มเข้ามา) -->
-    <div class="script-card">
-        <div class="script-name">Quantum Hub</div>
-        <div class="code-box" id="bf4">loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))())</div>
-        <button class="copy-btn" onclick="copyScript('bf4')">Copy Script</button>
+    <!-- โซนป้ายบอกสถานะ (ถ้าอันไหนไม่ใช้ ให้ลบเฉพาะบรรทัดนั้นออก หรือแก้คำเอาได้เลย) -->
+    <div style="margin-bottom: 10px;">
+        <span style="background-color: #0077ff; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px;">🔑 No Key</span>
+        <span style="background-color: #238636; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">🟢 Online</span>
     </div>
-    <!-- สคริปต์ตัวที่ 5 (ค่ายใหม่ที่เพิ่มเข้ามา) -->
-    <div class="script-card">
-        <div class="script-name">Gravity Hub</div>
-        <div class="code-box" id="bf4">loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()</div>
-        <button class="copy-btn" onclick="copyScript('bf4')">Copy Script</button>
+
+    <!-- โซนกล่องใส่โค้ด (จำกัดความสูงไว้ให้แล้ว โค้ดยาวแค่ไหนก็ไม่ล้นหน้าจอ) -->
+    <div class="code-box" id="bf3" style="max-height: 200px; overflow-y: auto; white-space: pre-wrap;">loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()</div>
+    
+    <!-- ปุ่มกดก๊อปปี้ -->
+    <button class="copy-btn" onclick="copyScript('bf3')">Copy Script</button>
+</div>
+    
+      <!-- 📦 กล่อง อันที่4 -->
+<div class="script-card">
+    <div class="script-name">Quantum Hub</div>
+    
+    <!-- โซนป้ายบอกสถานะ (ถ้าอันไหนไม่ใช้ ให้ลบเฉพาะบรรทัดนั้นออก หรือแก้คำเอาได้เลย) -->
+    <div style="margin-bottom: 10px;">
+        <span style="background-color: #0077ff; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px;">🔑 No Key</span>
+        <span style="background-color: #238636; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">🟢 Online</span>
     </div>
-     <!-- สคริปต์ตัวที่ 6 (ค่ายใหม่ที่เพิ่มเข้ามา) -->
-    <div class="script-card">
-        <div class="script-name">HIRU Hub</div>
-        <div class="code-box" id="bf5">repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+
+    <!-- โซนกล่องใส่โค้ด (จำกัดความสูงไว้ให้แล้ว โค้ดยาวแค่ไหนก็ไม่ล้นหน้าจอ) -->
+    <div class="code-box" id="bf4" style="max-height: 200px; overflow-y: auto; white-space: pre-wrap;">loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))())</div>
+    
+    <!-- ปุ่มกดก๊อปปี้ -->
+    <button class="copy-btn" onclick="copyScript('bf4')">Copy Script</button>
+</div>
+        <!-- 📦 กล่อง อันที่5 -->
+<div class="script-card">
+    <div class="script-name">Gravity Hub</div>
+    
+    <!-- โซนป้ายบอกสถานะ (ถ้าอันไหนไม่ใช้ ให้ลบเฉพาะบรรทัดนั้นออก หรือแก้คำเอาได้เลย) -->
+    <div style="margin-bottom: 10px;">
+        <span style="background-color: #0077ff; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px;">🔑 No Key</span>
+        <span style="background-color: #238636; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">🟢 Online</span>
+    </div>
+
+    <!-- โซนกล่องใส่โค้ด (จำกัดความสูงไว้ให้แล้ว โค้ดยาวแค่ไหนก็ไม่ล้นหน้าจอ) -->
+    <div class="code-box" id="bf5" style="max-height: 200px; overflow-y: auto; white-space: pre-wrap;">loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()</div>
+    
+    <!-- ปุ่มกดก๊อปปี้ -->
+    <button class="copy-btn" onclick="copyScript('bf5')">Copy Script</button>
+</div>
+        <!-- 📦 กล่อง อันที่6 -->
+<div class="script-card">
+    <div class="script-name">HIRU Hub</div>
+    
+    <!-- โซนป้ายบอกสถานะ (ถ้าอันไหนไม่ใช้ ให้ลบเฉพาะบรรทัดนั้นออก หรือแก้คำเอาได้เลย) -->
+    <div style="margin-bottom: 10px;">
+        <span style="background-color: #0077ff; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px;">🔑 No Key</span>
+        <span style="background-color: #238636; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">🟢 Online</span>
+    </div>
+
+    <!-- โซนกล่องใส่โค้ด (จำกัดความสูงไว้ให้แล้ว โค้ดยาวแค่ไหนก็ไม่ล้นหน้าจอ) -->
+    <div class="code-box" id="bf6" style="max-height: 200px; overflow-y: auto; white-space: pre-wrap;">repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 loadstring(game:HttpGet("https://luacrack.site/raw.php/HiruHub/raw/Loader/HiruHubFree.lua"))()</div>
-        <button class="copy-btn" onclick="copyScript('bf5')">Copy Script</button>
-    </div>
+    
+    <!-- ปุ่มกดก๊อปปี้ -->
+    <button class="copy-btn" onclick="copyScript('bf6')">Copy Script</button>
+</div>
 </div>
 <script>
 function copyScript(id) {
