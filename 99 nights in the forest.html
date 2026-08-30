@@ -22,21 +22,54 @@
     <a href="index.html" class="back-btn">⬅️ กลับหน้าหลัก</a>
 <h1> 99 nights in the forest </h1>
     
-    <div class="script-card">
-        <div class="script-name">Bonk Hub</div>
-        <div class="code-box" id="n1">loadstring(game:HttpGet("https://bonkhub.online/loader.lua",true))()</div>
-        <button class="copy-btn" onclick="copyScript('n1')">Copy Script</button>
+     <!-- 📦 กล่อง อันที่1 -->
+<div class="script-card">
+    <div class="script-name">Bonk Hub</div>
+    
+    <!-- โซนป้ายบอกสถานะ (ถ้าอันไหนไม่ใช้ ให้ลบเฉพาะบรรทัดนั้นออก หรือแก้คำเอาได้เลย) -->
+    <div style="margin-bottom: 10px;">
+        <span style="background-color: #0077ff; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px;">🔑 No Key</span>
+        <span style="background-color: #238636; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">🟢 Online</span>
     </div>
-      <div class="script-card">
-        <div class="script-name">Vector Hub</div>
-        <div class="code-box" id="n2">loadstring(game:HttpGet("https://vectorhub.space"))()</div>
-        <button class="copy-btn" onclick="copyScript('n2')">Copy Script</button>
+
+    <!-- โซนกล่องใส่โค้ด (จำกัดความสูงไว้ให้แล้ว โค้ดยาวแค่ไหนก็ไม่ล้นหน้าจอ) -->
+    <div class="code-box" id="n1" style="max-height: 200px; overflow-y: auto; white-space: pre-wrap;">loadstring(game:HttpGet("https://bonkhub.online/loader.lua",true))()</div>
+    
+    <!-- ปุ่มกดก๊อปปี้ -->
+    <button class="copy-btn" onclick="copyScript('n1')">Copy Script</button>
+</div>
+      <!-- 📦 กล่อง อันที่2 -->
+<div class="script-card">
+    <div class="script-name">Vector Hub</div>
+    
+    <!-- โซนป้ายบอกสถานะ (ถ้าอันไหนไม่ใช้ ให้ลบเฉพาะบรรทัดนั้นออก หรือแก้คำเอาได้เลย) -->
+    <div style="margin-bottom: 10px;">
+        <span style="background-color: #0077ff; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px;">🔑 No Key</span>
+        <span style="background-color: #238636; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">🟢 Online</span>
     </div>
-      <div class="script-card">
-        <div class="script-name">Foxname HUB</div>
-        <div class="code-box" id="n3">loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/Free%20Private%20Server.lua"))()</div>
-       <button class="copy-btn" onclick="copyScript('n3')">Copy Script</button>
+
+    <!-- โซนกล่องใส่โค้ด (จำกัดความสูงไว้ให้แล้ว โค้ดยาวแค่ไหนก็ไม่ล้นหน้าจอ) -->
+    <div class="code-box" id="n2" style="max-height: 200px; overflow-y: auto; white-space: pre-wrap;">loadstring(game:HttpGet("https://vectorhub.space"))()</div>
+    
+    <!-- ปุ่มกดก๊อปปี้ -->
+    <button class="copy-btn" onclick="copyScript('n2')">Copy Script</button>
+</div>
+     <!-- 📦 กล่อง อันที่3 -->
+<div class="script-card">
+    <div class="script-name">Foxname Hub</div>
+    
+    <!-- โซนป้ายบอกสถานะ (ถ้าอันไหนไม่ใช้ ให้ลบเฉพาะบรรทัดนั้นออก หรือแก้คำเอาได้เลย) -->
+    <div style="margin-bottom: 10px;">
+        <span style="background-color: #0077ff; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px;">🔑 No Key</span>
+        <span style="background-color: #238636; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">🟢 Online</span>
     </div>
+
+    <!-- โซนกล่องใส่โค้ด (จำกัดความสูงไว้ให้แล้ว โค้ดยาวแค่ไหนก็ไม่ล้นหน้าจอ) -->
+    <div class="code-box" id="n3" style="max-height: 200px; overflow-y: auto; white-space: pre-wrap;">loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/Free%20Private%20Server.lua"))()</div>
+    
+    <!-- ปุ่มกดก๊อปปี้ -->
+    <button class="copy-btn" onclick="copyScript('n3')">Copy Script</button>
+</div>
 </div>
 <script>
 function copyScript(id) {
