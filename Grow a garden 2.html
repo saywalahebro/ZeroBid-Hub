@@ -22,8 +22,21 @@
     <a href="index.html" class="back-btn">⬅️ กลับหน้าหลัก</a>
 <h1>Grow a garden 2 Scripts</h1>
     
-  <!-- สคริปต์ตัวที่ 1 -->
-    <div class="script-card">
-        <div class="script-name">Hoshi Hub</div>
-        <div class="code-box" id="gr1">loadstring(game:HttpGet("https://hoshihub.site/loader.lua"))()</div>
+ site/loader.lua"))()</div>
         <button class="copy-btn" onclick="copyScript('gr1')">Copy Script</button>
+   <!-- 📦 กล่อง อันที่1 -->
+<div class="script-card">
+    <div class="script-name">Hoshi Hub</div>
+    
+    <!-- โซนป้ายบอกสถานะ (ถ้าอันไหนไม่ใช้ ให้ลบเฉพาะบรรทัดนั้นออก หรือแก้คำเอาได้เลย) -->
+    <div style="margin-bottom: 10px;">
+        <span style="background-color: #0077ff; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px;">🔑 No Key</span>
+        <span style="background-color: #238636; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">🟢 Online</span>
+    </div>
+
+    <!-- โซนกล่องใส่โค้ด (จำกัดความสูงไว้ให้แล้ว โค้ดยาวแค่ไหนก็ไม่ล้นหน้าจอ) -->
+    <div class="code-box" id="gr1" style="max-height: 200px; overflow-y: auto; white-space: pre-wrap;">loadstring(game:HttpGet("https://hoshihub.site/loader.lua"))()</div>
+    
+    <!-- ปุ่มกดก๊อปปี้ -->
+    <button class="copy-btn" onclick="copyScript('gr1')">Copy Script</button>
+</div>
